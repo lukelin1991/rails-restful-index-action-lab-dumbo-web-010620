@@ -1,0 +1,5 @@
+<% @students.each do |student| %>
+    <ul>
+        <li><a href="/students/<%= student.id %>"><%= student.to_s %></a></li>
+    </ul>
+<% end %>
